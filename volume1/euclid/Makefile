@@ -1,5 +1,5 @@
 euclid: euclid.c
-	gcc -g $^ -o $@
+	gcc -g -Wall $^ -o $@
 
 clean:
-	rm euclid
+	rm -f euclid *.exe
